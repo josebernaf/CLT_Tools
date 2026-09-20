@@ -68,33 +68,11 @@ The plugin organizes its Grasshopper components into 5 clear, logical steps matc
 
 ## Workflow & Architecture
 
-```mermaid
-flowchart LR
-    subgraph Geometry["1. Geometry & Model"]
-        A[Rhino Surface / Brep] --> B[Create Element]
-        B --> C[Line Joints & Supports]
-    end
+```
+<p align="center">
+  <img src="assets/esquema rhino.png" alt="Functioning Scheme" width="550" />
+</p>
 
-    subgraph Definition["2. Properties & Loads"]
-        D[CLT Material Stack\n3/5/7 plies]
-        E[Loads & NCSE-02\nSeismic Action]
-    end
-
-    subgraph Assembly["3. Model Assembly"]
-        B & C & D & E --> F[Assemble Model]
-    end
-
-    subgraph Solvers["4. OpenSees Solvers"]
-        F --> G[Displacement Solver]
-        F --> H[Forces Solver]
-        F --> I[Stress Solver]
-    end
-
-    subgraph Viewers["5. Viewport Results"]
-        G --> J[Displacement Viewer]
-        H --> K[Forces Viewer]
-        I --> L[Stress Contour Viewer]
-    end
 ```
 
 <p align="center">
