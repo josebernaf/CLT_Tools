@@ -1,7 +1,7 @@
 # CLT Tools
 
 <p align="center">
-  <img src="assets/logo.png" alt="CLT Tools Logo" width="180" />
+  <img src="assets/logo.png" alt="CLT Tools Logo" width="550" />
 </p>
 
 <p align="center">
