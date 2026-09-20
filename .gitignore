@@ -1,0 +1,46 @@
+# ==========================================
+# .gitignore for CLT_Tools (Grasshopper / C# / OpenSees)
+# ==========================================
+
+# Visual Studio & .NET Build Artifacts
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userprefs
+*.userosscache
+*.sln.docstates
+*.dll
+*.pdb
+*.gha
+
+# Temporary and Output Folders
+01out/
+codigos/
+z_Diferentes pasos/
+*.tmp
+*.log
+
+# Personal & Scratch Documents
+Parte conversación antigua.txt
+Nuevo documento de texto*.txt
+Nuevo Documento de Microsoft Word.docx
+informes/informe_TCL.docx
+
+# Large Binary & Design Working Files (Adobe / InDesign / Office)
+*.psd
+*.ai
+*.indd
+*.xlsx
+*.3dmbak
+*.ghbak
+
+# Local drafts and thesis working materials (clean versions in assets/ and examples/)
+informes/
+Ejemplo/
+
+# OpenSees Temp Outputs
+*.out
+*.tcl.bak

@@ -1,0 +1,36 @@
+name: Build CLT_Tools
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: |
+          7.0.x
+          8.0.x
+
+    - name: Restore dependencies
+      run: dotnet restore CLT_Tools.csproj
+
+    - name: Build CLT_Tools (.GHA)
+      run: dotnet build CLT_Tools.csproj --configuration Release --no-restore
+
+    - name: Upload GHA Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: CLT_Tools_GHA
+        path: |
+          bin/Release/net48/CLT_Tools.gha
+          bin/Release/net7.0-windows/CLT_Tools.gha
