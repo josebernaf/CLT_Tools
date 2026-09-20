@@ -8,7 +8,7 @@ CLT Tools was initiated as a Master's Thesis research project (TFM) at **MArqUA 
 ## How to Contribute
 
 ### Reporting Issues
-- Use [GitHub Issues](https://github.com/) to report bugs or request new features.
+- Use [GitHub Issues](https://github.com/josebernaf/CLT_Tools/issues) to report bugs or request new features.
 - Please provide detailed steps to reproduce the issue, including Rhino and Grasshopper versions, OpenSees version, and relevant error messages from the component log.
 
 ### Pull Requests

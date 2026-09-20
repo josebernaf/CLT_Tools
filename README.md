@@ -132,7 +132,7 @@ The seismic component integrates the Spanish **Norma de Construcción Sismorresi
 ### Installation Steps
 
 1. **Option A: Download Compiled Release**
-   - Download the latest `CLT_Tools.gha` from the [Releases](https://github.com/) page.
+   - Download the latest `CLT_Tools.gha` from the [Releases](https://github.com/josebernaf/CLT_Tools/releases) page.
    - In Rhino, run the `_Grasshopper` command.
    - Go to **File $\rightarrow$ Special Folders $\rightarrow$ Components Folder** (usually `%APPDATA%\Grasshopper\Libraries`).
    - Copy `CLT_Tools.gha` into this folder.
@@ -141,7 +141,7 @@ The seismic component integrates the Spanish **Norma de Construcción Sismorresi
 
 2. **Option B: Build from Source (.NET SDK)**
    ```powershell
-   git clone https://github.com/your-username/CLT_Tools.git
+   git clone https://github.com/josebernaf/CLT_Tools.git
    cd CLT_Tools
    dotnet build CLT_Tools.csproj -c Release
    ```
