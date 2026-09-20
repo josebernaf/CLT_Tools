@@ -68,13 +68,9 @@ The plugin organizes its Grasshopper components into 5 clear, logical steps matc
 
 ## Workflow & Architecture
 
-```
 <p align="center">
   <img src="assets/esquema rhino.png" alt="Functioning Scheme" width="550" />
 </p>
-
-```
-
 <p align="center">
   <img src="assets/esquema_3D.png" alt="3D Structural Scheme" width="550" />
 </p>
