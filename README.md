@@ -190,4 +190,3 @@ See the full [LICENSE](LICENSE) file for legal details.
 ## Acknowledgments
 
 - The **OpenSees** development team at UC Berkeley for the finite element framework.
-- The developers of **Alpaca4d** and **Karamba3D** for inspiring open parametric structural engineering workflows in Grasshopper.
