@@ -22,9 +22,9 @@
 
 **CLT Tools** is a parametric Finite Element Analysis (FEA) plugin for **Rhinoceros 3D** and **Grasshopper**, developed on top of the **OpenSees** structural framework. It is specifically tailored for structural engineering and architectural design with **Cross-Laminated Timber (CLT / Madera Contralaminada)**.
 
-Modeled with the philosophy of tools like *Alpaca4d* and *Karamba3D*, **CLT Tools** bridges the gap between generative geometric design in Grasshopper and rigorous timber mechanics. It automates finite element meshing, orthotropic multi-layer material definition, flexible panel-to-panel linear joints, seismic demand assessment according to the Spanish Seismic Code (**NCSE-02**), and interactive post-processing in the Rhino viewport—without requiring the user to write code or OpenSees TCL scripts.
 
-Developed as a Master's Thesis (TFM) research project in the **Máster Universitario en Arquitectura (MArqUA)** at **Universidad de Alicante**, by **Jose Francisco Berná Falcó, Arquitecto**.
+
+Developed as a Master's Thesis (TFM) research project in the **Máster Universitario en Arquitectura (MArqUA)** at **Universidad de Alicante**, by **Jose Francisco Berná Falcó**.
 
 ---
 
